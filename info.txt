@@ -1,0 +1,13 @@
+
+
+* npm test --watchAll = Para executar todos os testes, toda vez que alterar os arquivos.
+
+# Os atributos que começam com 'query' não falham, caso o elemento não seja encontrado
+    Diferente do atributo 'get'.(se o elemento não estiver na tela, irá falhar)
+
+# Use o seguinte comando no terminal para rodar testes apenas em uma pasta específica:
+    npx jest nome_da_pasta
+# Você também pode especificar arquivos específicos para testar:
+    npx jest caminho/para/o/arquivo.test.js
+
+# fireEvent recebe dois parâmetros: Qual o elemento e qual o evento.
